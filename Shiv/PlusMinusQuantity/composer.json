@@ -1,0 +1,23 @@
+{
+    "name": "shiv/plusminusquantity",
+    "description": "Plus and Minus quantity on product page and minicart",
+    "type": "magento2-module",
+    "license": "proprietary",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "shiv kumar jha",
+            "email": "jhashiv5@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Shiv\\PlusMinusQuantity\\": ""
+        }
+    }
+}

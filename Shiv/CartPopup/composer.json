@@ -1,0 +1,25 @@
+{
+    "name": "shiv/module-cartpopup",
+    "description": "display popup after product is added to cart and show suggested products to the user",
+    "type": "magento2-module",
+    "license": "OSL-3.0",
+    "authors": [
+        {
+            "email": "info@mage2gen.com",
+            "name": "Mage2Gen"
+        },
+        {
+            "email": "jhashiv5@gmail.com",
+            "name": "shiv jha"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Shiv\\CartPopup\\": ""
+        }
+    }
+}

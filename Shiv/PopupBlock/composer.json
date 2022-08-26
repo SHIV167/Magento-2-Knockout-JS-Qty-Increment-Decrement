@@ -1,0 +1,22 @@
+{
+    "name": "shiv/popupblock",
+    "description": "Magento 2 Display Popup with content defined from your custom block.",
+    "type": "magento2-module",
+    "license": "OSL-3.0",
+    "authors": [
+        {
+            "email": "jhashiv5@gmail.com",
+            "name": "shiv jha"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Shiv\\PopupBlock\\": ""
+        }
+    }
+}
